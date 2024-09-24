@@ -3,4 +3,4 @@ add_dns:
     - name: /etc/resolv.conf
     - mode: insert
     - location: start
-    - content: "nameserver 172.30.70.12 \n nameserver 172.30.70.14"
+    - content: "nameserver a.b.c.d \n nameserver a.b.c.e"

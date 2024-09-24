@@ -1,0 +1,1 @@
+add your NS to /etc/resolv.conf by running this salt state.

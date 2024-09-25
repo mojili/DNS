@@ -3,11 +3,11 @@
 {% set IMAGE_NAME = 'bind-exporter' %}
 {% set IMAGE_VERSION =  "v0.7.0" %}
 {% set config = pillar.get('nodes_info', {}) %}
-{% set REGISTRY_URL = 'demo-registry.digicdn.dev' %}
+{% set REGISTRY_URL = 'demo-registry......' %}
 {% set REG_DEFAULTS = pillar.get('reg_defaults', {}) %}
-{% set NAME_SERVER_1 = '172.30.70.12' %}
-{% set NAME_SERVER_2 = '172.30.70.14' %}
-{% set DOMAIN_NAME = 'digicdn.dev' %}
+{% set NAME_SERVER_1 = 'a.b.c.d' %}
+{% set NAME_SERVER_2 = 'a.b.c.f' %}
+{% set DOMAIN_NAME = 'domain.dev' %}
 
 Docker_Login:
   cmd.run:
